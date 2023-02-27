@@ -36,35 +36,35 @@ public class Recomendacion {
     }
     /**
      * Este método sirve para obtener las aptitudes del estudiante recomendado
-     * @return afinidad
+     * @return aptitudes
      */
     public Aptitud getAptitudes(){
         return aptitudes;
     }
     /**
      * Este método sirve para obtener la media de calificaciones del estudiante recomendado
-     * @return calificaciones
+     * @return media calificaciones
      */
     public double getMedia() {
         return media;
     }
     /**
      * Este método sirve para obtener las media mínima que se pide en la oferta de empleo
-     * @return calificaciones
+     * @return la media minima
      */
     public double getMinMedia() {
         return minMedia;
     }
     /**
      * Este método sirve para obtener la aptitud mínima que se pide en la oferta de empleo
-     * @return calificaciones
+     * @return las aptitudes minimas
      */
     public String getMinAptitud() {
         return minAptitud;
     }
     /**
      * Este método sirve para obtener la afinidad mínima que se pide en la oferta de empleo
-     * @return calificaciones
+     * @return la afinidad minima
      */
     public double getMinAfinidad() {
         return minAfinidad;
