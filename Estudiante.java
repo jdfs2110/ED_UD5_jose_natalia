@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class Estudiante extends Persona {
     private int nia;
-    protected ArrayList<Aptitud> aptitudes = new ArrayList<Aptitud>();
+    //protected ArrayList<Aptitud> aptitudes = new ArrayList<Aptitud>();
     protected ArrayList<Calificacion> calificaciones = new ArrayList<Calificacion>();
     /**
      * Este constructor sirve para crear un estudiante

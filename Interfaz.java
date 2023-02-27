@@ -8,7 +8,6 @@ public class Interfaz {
     private ArrayList<Empresa> listaEmpresas = new ArrayList<Empresa>();
     private ArrayList<Estudiante> listaEstudiantes = new ArrayList<Estudiante>();
     private ArrayList<Docente> listaDocentes = new ArrayList<Docente>();
-    private ArrayList<Aptitud> listaAptitudes = new ArrayList<Aptitud>();
 
     /**
      * método para añadir una oferta de empleo a la lista de ofertas de empleo.
@@ -134,14 +133,5 @@ public class Interfaz {
      */
     public boolean removeAptitud(String[] args){
         return true;
-    }
-
-    /**
-     * método para obtener una aptitud de la lista de aptitudes.
-     * @param args el parámetro args define los argumentos de la aptitud.
-     * @return la aptitud.
-     */
-    public Aptitud getAptitud(String[] args){
-        return null;
     }
 }

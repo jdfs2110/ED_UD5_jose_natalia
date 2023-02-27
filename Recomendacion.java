@@ -3,7 +3,6 @@
  * @version 27/02/2023
  */
 public class Recomendacion {
-    private Aptitud aptitudes;
     private Calificacion calificaciones;
     private double minMedia;
     private String minAptitud;
@@ -19,8 +18,7 @@ public class Recomendacion {
      * @param minAfinidad
      * @param afinidad
      */
-    public Recomendacion(Aptitud aptitudes, Calificacion calificaciones, double minCalificacion, String minAptitud, double minAfinidad, double afinidad) {
-        this.aptitudes = aptitudes;
+    public Recomendacion(Calificacion calificaciones, double minCalificacion, String minAptitud, double minAfinidad, double afinidad) {
         this.calificaciones = calificaciones;
         this.minMedia = minCalificacion;
         this.minAptitud = minAptitud;
@@ -35,13 +33,6 @@ public class Recomendacion {
         return afinidad;
     }
     /**
-     * Este método sirve para obtener las aptitudes del estudiante recomendado
-     * @return aptitudes
-     */
-    public Aptitud getAptitudes(){
-        return aptitudes;
-    }
-    /**
      * Este método sirve para obtener la media de calificaciones del estudiante recomendado
      * @return media calificaciones
      */
@@ -54,13 +45,6 @@ public class Recomendacion {
      */
     public double getMinMedia() {
         return minMedia;
-    }
-    /**
-     * Este método sirve para obtener la aptitud mínima que se pide en la oferta de empleo
-     * @return las aptitudes minimas
-     */
-    public String getMinAptitud() {
-        return minAptitud;
     }
     /**
      * Este método sirve para obtener la afinidad mínima que se pide en la oferta de empleo
