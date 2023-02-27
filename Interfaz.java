@@ -16,6 +16,7 @@ public class Interfaz {
      * @return true si se ha añadido correctamente, false si no se ha añadido.
      */
     public boolean addOferta(String[] args){
+        return true;
     }
 
     /**
@@ -24,6 +25,7 @@ public class Interfaz {
      * @return true si se ha eliminado correctamente, false si no se ha eliminado.
      */
     public boolean removeOferta(String[] args){
+        return true;
     }
 
     /**
@@ -31,7 +33,8 @@ public class Interfaz {
      * @param args el parámetro args define los argumentos de la oferta de empleo.
      * @return la oferta de empleo.
      */
-    public Oferta getOferta(String[] args){
+    public OfertaEmpleo getOferta(String[] args){
+        return null;
     }
 
     /**
@@ -40,6 +43,7 @@ public class Interfaz {
      * @return true si se ha añadido correctamente, false si no se ha añadido.
      */
     public boolean addEmpresa(String[] args){
+        return true;
     }
 
     /**
@@ -48,6 +52,7 @@ public class Interfaz {
      * @return true si se ha eliminado correctamente, false si no se ha eliminado.
      */
     public boolean removeEmpresa(String[] args){
+        return true;
     }
 
     /**
@@ -56,6 +61,7 @@ public class Interfaz {
      * @return la empresa.
      */
     public Empresa getEmpresa(String[] args){
+        return null;
     }
 
     /**
@@ -64,6 +70,7 @@ public class Interfaz {
      * @return true si se ha añadido correctamente, false si no se ha añadido.
      */
     public boolean addEstudiante(String[] args){
+        return true;
     }
 
     /**
@@ -72,6 +79,7 @@ public class Interfaz {
      * @return true si se ha eliminado correctamente, false si no se ha eliminado.
      */
     public boolean removeEstudiante(String[] args){
+        return true;
     }
 
     /**
@@ -80,6 +88,7 @@ public class Interfaz {
      * @return el estudiante.
      */
     public Estudiante getEstudiante(String[] args){
+        return null;
     }
 
     /**
@@ -88,6 +97,7 @@ public class Interfaz {
      * @return true si se ha añadido correctamente, false si no se ha añadido.
      */
     public boolean addDocente(String[] args){
+        return true;
     }
 
     /**
@@ -96,6 +106,7 @@ public class Interfaz {
      * @return true si se ha eliminado correctamente, false si no se ha eliminado.
      */
     public boolean removeDocente(String[] args){
+        return true;
     }
 
     /**
@@ -104,6 +115,7 @@ public class Interfaz {
      * @return el docente.
      */
     public Docente getDocente(String[] args){
+        return null;
     }
 
     /**
@@ -112,6 +124,7 @@ public class Interfaz {
      * @return true si se ha añadido correctamente, false si no se ha añadido.
      */
     public boolean addAptitud(String[] args){
+        return true;
     }
 
     /**
@@ -120,6 +133,7 @@ public class Interfaz {
      * @return true si se ha eliminado correctamente, false si no se ha eliminado.
      */
     public boolean removeAptitud(String[] args){
+        return true;
     }
 
     /**
@@ -128,5 +142,6 @@ public class Interfaz {
      * @return la aptitud.
      */
     public Aptitud getAptitud(String[] args){
+        return null;
     }
 }

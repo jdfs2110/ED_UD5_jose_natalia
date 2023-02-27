@@ -53,6 +53,7 @@ public class Calificacion {
      * @return la media de las calificaciones.
      */
     public double calcularMedia(){
+        return 1;
         
     }
 }

@@ -45,7 +45,7 @@ public class Recomendacion {
      * Este método sirve para obtener la media de calificaciones del estudiante recomendado
      * @return calificaciones
      */
-    public float getMedia() {
+    public double getMedia() {
         return media;
     }
     /**
