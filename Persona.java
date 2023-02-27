@@ -1,4 +1,4 @@
-/**
+/** Esta clase sirve para crear personas
  * @author Natalia
  * @version 27/02/2023
  */

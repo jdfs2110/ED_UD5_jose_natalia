@@ -1,9 +1,13 @@
+/** Esta clase sirve para crear un estudiante
+ * @author Natalia
+ * @version 27/02/2023
+ */
 import java.util.ArrayList;
 
 public class Estudiante extends Persona {
     private int nia;
-    private ArrayList<Aptitud> aptitudes = new ArrayList<Aptitud>();
-    private ArrayList<Calificacion> calificaciones = new ArrayList<Calificacion>();
+    protected ArrayList<Aptitud> aptitudes = new ArrayList<Aptitud>();
+    protected ArrayList<Calificacion> calificaciones = new ArrayList<Calificacion>();
     /**
      * Este constructor sirve para crear un estudiante
      * @param nombre
