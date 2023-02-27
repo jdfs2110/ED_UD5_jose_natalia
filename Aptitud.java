@@ -18,8 +18,7 @@ public class Aptitud{
 
     /**
      * método para poner el nombre a la aptitud
-     * @param nombreAptitud el parámetro nombreAptitud define el nombre
-     * de la aptitud.
+     * @param nombreAptitud el parámetro nombreAptitud define el nombre de la aptitud.
      */
     public void setNombre(String nombreAptitud){
         this.nombreAptitud = nombreAptitud;
@@ -27,8 +26,7 @@ public class Aptitud{
 
     /**
      * método para poner el nivel de la aptitud
-     * @param nivelAptitud el parámetro nombreAptitud define
-     * el nivel de aptitud (numero entero positivo).
+     * @param nivelAptitud el parámetro nombreAptitud define el nivel de aptitud (numero entero positivo).
      */
     public void setNivel(int nivelAptitud){
         this.nivelAptitud = nivelAptitud;
