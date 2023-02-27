@@ -7,6 +7,16 @@ public class Aptitud{
     private int nivelAptitud;
 
     /**
+     * constructor de la clase Aptitud
+     * @param nombreAptitud
+     * @param nivelAptitud
+     */
+    public Aptitud(String nombreAptitud, int nivelAptitud){
+        this.nombreAptitud = nombreAptitud;
+        this.nivelAptitud = nivelAptitud;
+    }
+
+    /**
      * método para poner el nombre a la aptitud
      * @param nombreAptitud el parámetro nombreAptitud define el nombre
      * de la aptitud.
