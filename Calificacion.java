@@ -47,4 +47,12 @@ public class Calificacion {
     public int getNota(){
         return nota;
     }
+
+    /**
+     * método que calcula la media de las calificaciones.
+     * @return la media de las calificaciones.
+     */
+    public double calcularMedia(){
+        
+    }
 }
