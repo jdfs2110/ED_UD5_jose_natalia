@@ -1,4 +1,4 @@
-/**
+/** Esta clase define las aptitudes de los estudiantes.
  * @author jose
  * @version 01/03/2023
  */
@@ -8,8 +8,8 @@ public class Aptitud {
 
     /**
      * Constructor de la clase Aptitud
-     * @param nombreAptitud
-     * @param nivelAptitud
+     * @param nombreAptitud nombre de la aptitud
+     * @param nivelAptitud nivel de la aptitud
      */
     public Aptitud(String nombreAptitud, int nivelAptitud) {
         this.nombreAptitud = nombreAptitud;
@@ -26,7 +26,7 @@ public class Aptitud {
 
     /**
      * Metodo que devuelve el nivel de la aptitud
-     * @return
+     * @return nombre de la aptitud
      */
     public String getNombreAptitud() {
         return nombreAptitud;
@@ -42,7 +42,7 @@ public class Aptitud {
 
     /**
      * Metodo que devuelve el nivel de la aptitud
-     * @return
+     * @return nivel de la aptitud
      */
     public int getNivelAptitud() {
         return nivelAptitud;
